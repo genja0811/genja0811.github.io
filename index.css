@@ -1,0 +1,126 @@
+header {
+    text-align: center;
+    background-color: #c6d4e1;
+  }
+  
+  body{
+    height: 1000px;
+    background-color: #44749d;
+  }
+  
+  hr{
+    border: 5px solid #ffffff;
+    width: 100%;
+  }
+  
+  .container {
+    width: auto;
+    background-color: #44749d;
+    height:100%;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+  }
+  
+  .form-pesanan {
+    padding: 40px;
+    margin-top: 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: auto;
+    padding-bottom: 50px;
+    background-color: #c6d4e1;
+  }
+  
+  select {
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+  
+  input {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-right: 100px; */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 0;
+    text-align: center;
+    width: max-content
+  }
+  
+  #tambah-produk {
+    background-color: rgb(232, 174, 14);
+    width: 100%;
+  }
+  
+  #pesan {
+    background-color: #D65DB1;
+    width: 100%;
+    color: white;
+  }
+  
+  .hapus {
+    margin-top: 10px;
+    padding: 2px 12px !important;
+    align-items: center;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 44, 44);
+    color: rgb(255, 44, 44);
+    border-radius: 4px;
+  }
+  
+  #tambah-produk:hover {
+  background-color: rgb(255, 206, 70);
+  }
+  
+  #pesan:hover {
+    background-color: #FF6F91;
+  }
+  
+  
+  
+  .pad-right {
+    padding-right: 10px;
+  }
+  
+  .left {
+    float: left;
+  }
+  
+  .right {
+    float: right;
+  }
+  
+  .form-produk::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  
+  .jumlah {
+    margin: 5px;
+  }
+  
+  .pd-top {
+    margin-top: 18px;
+  }
+  .cont-3 {
+    padding-left: 30px;
+  }
